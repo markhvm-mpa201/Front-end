@@ -1,0 +1,36 @@
+body
+{
+    background-color: rgb(104, 123, 131);
+}
+
+#cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.fa-brands
+{
+    margin-top: 30px;
+    font-size: 70px;
+}
+
+button
+{
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    color: grey;
+    border-radius: 50px;
+}

@@ -1,0 +1,71 @@
+body
+{
+    background-color: black;
+}
+
+#cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    margin-top: 80px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+img 
+{
+    width: 300px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.postAgo p
+{
+    margin: 0;
+}
+
+.post
+{
+    font-size: 30px;
+}
+
+.lorem
+{
+   color: grey; 
+}
+
+#datas
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 75px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#data
+{
+    border-top: 1px solid black;
+    width: 100px;
+    height: 75px;
+    color: white;
+}
+
+#data p 
+{
+    margin-top: 10px;
+    
+}
