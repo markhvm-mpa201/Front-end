@@ -98,3 +98,75 @@ header{
 	border-radius: 100%;
 	border: 1px solid gray;
 }
+
+#banner {
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	text-align: center;
+	padding-top: 100px;
+	padding-right: 20px;
+	padding-left: 20PX;
+
+	background-image:
+		radial-gradient(circle at center, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0.85) 100%),
+		url(https://rainbowit.net/html/nuron/assets/images/bg/bg-image-23.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#text1 {
+	color: #00a3ff;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+#text2 {
+	color: white;
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+
+#text3 {
+	color: gray;
+	max-width: 700px;
+	font-size: 18px;
+}
+
+#explore button{
+	height: 55px;
+	width: 160px;
+	background-color: #00a3ff;
+	border-radius: 10px;
+	color: white;
+	margin-top: 58px;
+}
+
+#explore button:hover {	
+	background-color: #212e48;
+}
+
+#banner ul{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	gap: 10px;
+}
+
+#banner li{
+	border: 1pxx solid grey;
+	background-color: #24243557;
+	width: 70px;
+	height: 70px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner img{
+	width: 50px;
+	height: 50px;
+}
